@@ -12,7 +12,7 @@
 <?php
       $filename = $_FILES['file']['name'];
       $filename = "uml.png";
-      $location = "C:\\xampp\\htdocs\\IWP_Lab\\WebEngineering\\test\\".$filename;
+      $location = "C:\\xampp\\htdocs\\IWP_Lab\\WebEngineering\\model-wd\\v2\\".$filename;
   
       if (move_uploaded_file ($_FILES['file']['tmp_name'],$location))
 ?>
